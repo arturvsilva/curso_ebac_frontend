@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #292929;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 480px;
+    background-color: #efefef;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+form h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+form p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form div input{
+    width: 150px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form div button{
+    width: 70px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(43, 110, 112);
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+form .mensagem-sucesso {
+    display: none;
+    color: white;
+    padding: 8px;
+    background-color: rgb(43, 110, 112);
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+form .mensagem-erro {
+    display: none;
+    color: white;
+    padding: 8px;
+    background-color: rgb(112, 0, 4);
+    margin-top: 15px;
+    border-radius: 5px;
+}
